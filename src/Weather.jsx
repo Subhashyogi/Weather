@@ -14,7 +14,7 @@ const Weather = ({weather,fetchWeather}) => {
     
     return (
         <div className='col-span-3'>
-            <input type="text" className='text-xl border p-3 w-full' onKeyUp={keyUpHandler}/>
+            <input placeholder='Enter city name' type="text" className='text-xl border p-3 w-full' onKeyUp={keyUpHandler}/>
             <hr className='my-4' />
             <div className=''>
                 {
